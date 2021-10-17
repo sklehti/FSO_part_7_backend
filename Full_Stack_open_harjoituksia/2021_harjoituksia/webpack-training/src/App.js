@@ -16,7 +16,7 @@ const App = () => {
   const [counter, setCounter] = useState(0);
   const [values, setValues] = useState([]);
   //const url = "https://dashboard.heroku.com/apps/dry-everglades-93142";
-  const url = "https://git.heroku.com/tranquil-waters-76563.git";
+  const url = "https://git.heroku.com/dry-everglades-93142.git";
   const notes = useNotes(url);
 
   const handleClick = () => {
