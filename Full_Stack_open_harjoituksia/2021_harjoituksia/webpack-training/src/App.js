@@ -15,7 +15,8 @@ const useNotes = (url) => {
 const App = () => {
   const [counter, setCounter] = useState(0);
   const [values, setValues] = useState([]);
-  const url = "";
+  //const url = "https://dashboard.heroku.com/apps/dry-everglades-93142";
+  const url = "https://git.heroku.com/tranquil-waters-76563.git";
   const notes = useNotes(url);
 
   const handleClick = () => {
@@ -28,7 +29,7 @@ const App = () => {
       hello webpack {counter} clicks
       <button onClick={handleClick}>press</button>
       <div>
-        {notes.length} noteson server {url}
+        {notes.length} notes on server {url}
       </div>
     </div>
   );
