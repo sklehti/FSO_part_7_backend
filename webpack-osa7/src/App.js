@@ -15,7 +15,7 @@ const App = () => {
   const [counter, setCounter] = useState(0);
   const [values, setValues] = useState([]);
   //const url = "https://sheltered-sierra-43879.herokuapp.com/api/notes";
-  const url = "https://blooming-atoll-75500.herokuapp.com/api/notes";
+  const url = "https://git.heroku.com/stark-refuge-46384.git";
 
   const notes = useNotes(url);
 
