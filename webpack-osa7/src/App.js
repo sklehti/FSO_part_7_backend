@@ -10,7 +10,7 @@ const useNotes = (url) => {
   }, [url]);
   return notes;
 };
-
+//gitin testausta taas...
 const App = () => {
   const [counter, setCounter] = useState(0);
   const [values, setValues] = useState([]);
